@@ -1,0 +1,8 @@
+jdk:
+  - openjdk17
+install:
+  # 根 pom 在 dependencyManagement 里 import 了本 reactor 自己的两个 BOM（版本写 ${revision}），
+  # 而 Maven 解析 import 只查仓库、不查 reactor —— 干净的 ~/.m2 必须先补这三份 pom，
+  # 否则建模阶段就 "Some problems were encountered while processing the POMs" 直接失败。
+  - bash tools/jitpack-bootstrap.sh
+  - mvn -B -DskipTests -Dskip.npm=true -Dskip.installnodenpm=true -Dmaven.javadoc.skip=true -Dgpg.skip=true install
