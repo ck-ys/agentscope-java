@@ -20,7 +20,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.agentscope</groupId>
+        <groupId>io.github.ck-ys.agentscope</groupId>
         <artifactId>agentscope-spring-boot-starters</artifactId>
         <version>${revision}</version>
     </parent>
@@ -36,7 +36,7 @@
     <dependencies>
         <!-- AgentScope Core -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-core</artifactId>
             <scope>provided</scope>
             <optional>true</optional>
@@ -44,13 +44,13 @@
 
         <!-- AG-UI Core -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-agui</artifactId>
         </dependency>
 
         <!-- AgentScope Spring Boot Starter (includes core and autoconfigure) -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-spring-boot-starter</artifactId>
         </dependency>
 
@@ -83,7 +83,7 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-model-dashscope</artifactId>
             <scope>test</scope>
         </dependency>

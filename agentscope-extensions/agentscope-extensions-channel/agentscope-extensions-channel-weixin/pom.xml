@@ -34,15 +34,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>io.agentscope</groupId><artifactId>agentscope-extensions-channel</artifactId>
+    <groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-extensions-channel</artifactId>
     <version>${revision}</version><relativePath>../pom.xml</relativePath>
   </parent>
   <artifactId>agentscope-extensions-channel-weixin</artifactId>
   <name>AgentScope Java - Extensions - Channel Weixin</name>
   <description>Personal Weixin iLink channel adapter for AgentScope Harness Gateway</description>
   <dependencies>
-    <dependency><groupId>io.agentscope</groupId><artifactId>agentscope-harness</artifactId><scope>provided</scope><optional>true</optional></dependency>
-    <dependency><groupId>io.agentscope</groupId><artifactId>agentscope-extensions-channel-common</artifactId><version>${revision}</version></dependency>
+    <dependency><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-harness</artifactId><scope>provided</scope><optional>true</optional></dependency>
+    <dependency><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-extensions-channel-common</artifactId><version>${revision}</version></dependency>
     <dependency><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-databind</artifactId><scope>provided</scope></dependency>
     <dependency><groupId>org.slf4j</groupId><artifactId>slf4j-api</artifactId><scope>provided</scope></dependency>
     <dependency><groupId>io.projectreactor</groupId><artifactId>reactor-core</artifactId><scope>provided</scope></dependency>

@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.agentscope</groupId>
+        <groupId>io.github.ck-ys.agentscope</groupId>
         <artifactId>agentscope-extensions</artifactId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
@@ -15,9 +15,9 @@
         <sqlite.version>3.47.1.0</sqlite.version>
     </properties>
     <dependencies>
-        <dependency><groupId>io.agentscope</groupId><artifactId>agentscope-durable-runtime</artifactId><version>${revision}</version><type>test-jar</type><scope>test</scope></dependency>
+        <dependency><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-durable-runtime</artifactId><version>${revision}</version><type>test-jar</type><scope>test</scope></dependency>
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-durable-runtime</artifactId>
             <version>${project.version}</version>
         </dependency>

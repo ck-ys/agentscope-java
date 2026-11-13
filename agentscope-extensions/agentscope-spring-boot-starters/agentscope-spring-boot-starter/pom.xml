@@ -20,7 +20,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.agentscope</groupId>
+        <groupId>io.github.ck-ys.agentscope</groupId>
         <artifactId>agentscope-spring-boot-starters</artifactId>
         <version>${revision}</version>
     </parent>
@@ -38,7 +38,7 @@
     <dependencies>
         <!-- Use the modular core; the all-in-one JAR also embeds optional extension classes. -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-core</artifactId>
         </dependency>
 

@@ -20,13 +20,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.agentscope</groupId>
+        <groupId>io.github.ck-ys.agentscope</groupId>
         <artifactId>agentscope-examples</artifactId>
         <version>${revision}</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <groupId>io.agentscope.examples</groupId>
+    <groupId>io.github.ck-ys.agentscope.examples</groupId>
     <artifactId>agentscope-paw</artifactId>
     <packaging>jar</packaging>
 
@@ -47,46 +47,46 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-harness</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-model-dashscope</artifactId>
         </dependency>
 
         <!-- IM channel implementations -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-channel-dingtalk</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-channel-feishu</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-channel-wecom</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-channel-github</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-channel-gitlab</artifactId>
         </dependency>
 
         <!-- Git skill repository: paw delegates to GitSkillRepository for marketplace listing/fetch -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-skill-git-repository</artifactId>
         </dependency>
 
         <!-- Nacos skill repository: reused for ZIP layout utilities; download path still works through AiService -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-nacos-skill</artifactId>
         </dependency>
 

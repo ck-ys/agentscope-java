@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.agentscope</groupId><artifactId>agentscope-examples</artifactId>
+        <groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-examples</artifactId>
         <version>${revision}</version><relativePath>../../pom.xml</relativePath>
     </parent>
-    <groupId>io.agentscope.examples</groupId><artifactId>agentscope-chat</artifactId>
+    <groupId>io.github.ck-ys.agentscope.examples</groupId><artifactId>agentscope-chat</artifactId>
     <name>AgentScope Java - Session Chat</name>
     <description>Runnable chat example for durable events, SSE replay and execution recovery</description>
     <dependencyManagement><dependencies><dependency>
@@ -14,9 +14,9 @@
         <version>${spring.boot.version}</version><type>pom</type><scope>import</scope>
     </dependency></dependencies></dependencyManagement>
     <dependencies>
-        <dependency><groupId>io.agentscope</groupId><artifactId>agentscope-durable-adapter-harness-agentscope</artifactId></dependency>
-        <dependency><groupId>io.agentscope</groupId><artifactId>agentscope-extensions-durable-jdbc</artifactId></dependency>
-        <dependency><groupId>io.agentscope</groupId><artifactId>agentscope-extensions-model-dashscope</artifactId></dependency>
+        <dependency><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-durable-adapter-harness-agentscope</artifactId></dependency>
+        <dependency><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-extensions-durable-jdbc</artifactId></dependency>
+        <dependency><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-extensions-model-dashscope</artifactId></dependency>
         <dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-webflux</artifactId></dependency>
         <dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-test</artifactId><scope>test</scope></dependency>
     </dependencies>

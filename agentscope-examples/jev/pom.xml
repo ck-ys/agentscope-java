@@ -20,24 +20,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.agentscope</groupId>
+        <groupId>io.github.ck-ys.agentscope</groupId>
         <artifactId>agentscope-examples</artifactId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>io.agentscope.examples</groupId>
+    <groupId>io.github.ck-ys.agentscope.examples</groupId>
     <artifactId>jev</artifactId>
     <name>AgentScope Java - Examples - JEV</name>
     <description>Offline JEV examples and opt-in live benchmarks</description>
 
     <dependencies>
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-jev</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-harness</artifactId>
         </dependency>
         <dependency>

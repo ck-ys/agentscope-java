@@ -27,7 +27,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.agentscope</groupId>
+        <groupId>io.github.ck-ys.agentscope</groupId>
         <artifactId>agentscope-spring-boot-starters</artifactId>
         <version>${revision}</version>
     </parent>
@@ -43,7 +43,7 @@
     <dependencies>
         <!-- AgentScope Core (provided so consumers bring their own version) -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-harness</artifactId>
             <optional>true</optional>
             <scope>provided</scope>
@@ -51,7 +51,7 @@
 
         <!-- Reuse core Spring Boot starter for shared bean definitions -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-spring-boot-starter</artifactId>
         </dependency>
 

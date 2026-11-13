@@ -20,7 +20,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.agentscope</groupId>
+        <groupId>io.github.ck-ys.agentscope</groupId>
         <artifactId>agentscope-parent</artifactId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
@@ -32,13 +32,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-core</artifactId>
         </dependency>
 
         <!-- Shared test fixtures from agentscope-core (MockModel, MockToolkit, etc.). -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-core</artifactId>
             <version>${revision}</version>
             <type>test-jar</type>
@@ -47,7 +47,7 @@
 
         <!-- Exercise AG-UI resume conversion against the real HarnessAgent. -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-agui</artifactId>
             <scope>test</scope>
         </dependency>

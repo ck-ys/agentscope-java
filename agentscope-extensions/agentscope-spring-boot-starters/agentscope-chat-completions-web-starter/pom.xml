@@ -24,7 +24,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.agentscope</groupId>
+        <groupId>io.github.ck-ys.agentscope</groupId>
         <artifactId>agentscope-spring-boot-starters</artifactId>
         <version>${revision}</version>
     </parent>
@@ -40,7 +40,7 @@
     <dependencies>
         <!-- AgentScope Core -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-core</artifactId>
             <optional>true</optional>
             <scope>provided</scope>
@@ -48,14 +48,14 @@
 
         <!-- Chat Completions Web Core -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-extensions-chat-completions-web</artifactId>
             <version>${revision}</version>
         </dependency>
 
         <!-- Reuse core Spring Boot starter for AgentScope configuration -->
         <dependency>
-            <groupId>io.agentscope</groupId>
+            <groupId>io.github.ck-ys.agentscope</groupId>
             <artifactId>agentscope-spring-boot-starter</artifactId>
         </dependency>
 
