@@ -3,6 +3,8 @@
 <modelVersion>4.0.0</modelVersion>
 <parent><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-extensions</artifactId><version>${revision}</version></parent>
 <artifactId>agentscope-extensions-durable-http</artifactId>
+<name>AgentScope Durable - HTTP</name>
+<description>HTTP handlers exposing the durable runtime and executors</description>
 <dependencies>
 <dependency><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-durable-runtime</artifactId><version>${revision}</version><type>test-jar</type><scope>test</scope></dependency>
 <dependency><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-extensions-durable-jdbc</artifactId><version>${revision}</version><type>test-jar</type><scope>test</scope></dependency>

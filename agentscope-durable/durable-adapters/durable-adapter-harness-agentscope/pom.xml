@@ -25,6 +25,8 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>agentscope-durable-adapter-harness-agentscope</artifactId>
+    <name>AgentScope Durable - AgentScope Adapter</name>
+    <description>Runs native AgentScope agents as recoverable durable executions</description>
     <dependencies>
         <dependency>
             <groupId>io.github.ck-ys.agentscope</groupId>

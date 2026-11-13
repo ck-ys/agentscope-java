@@ -25,6 +25,8 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>agentscope-durable-runtime</artifactId>
+    <name>AgentScope Durable - Recoverable Runtime</name>
+    <description>Checkpoint codecs, delegation and recovery primitives for durable executions</description>
     <dependencies>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>

@@ -3,6 +3,8 @@
 <modelVersion>4.0.0</modelVersion>
 <parent><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-extensions</artifactId><version>${revision}</version></parent>
 <artifactId>agentscope-extensions-durable-sandbox</artifactId>
+<name>AgentScope Durable - Sandbox</name>
+<description>Sandbox execution bindings with recoverable lifecycle management</description>
 <dependencies>
 <dependency><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-durable-runtime</artifactId><version>${revision}</version></dependency>
 <dependency><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-harness</artifactId></dependency>

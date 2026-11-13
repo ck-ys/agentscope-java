@@ -3,6 +3,8 @@
 <modelVersion>4.0.0</modelVersion>
 <parent><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-extensions</artifactId><version>${revision}</version></parent>
 <artifactId>agentscope-extensions-durable-rocketmq</artifactId>
+<name>AgentScope Durable - RocketMQ</name>
+<description>RocketMQ execution topology, wakeups and rejection handling</description>
 <properties><rocketmq-client-java.version>5.2.2</rocketmq-client-java.version></properties>
 <dependencies>
 <dependency><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-durable-runtime</artifactId><version>${revision}</version></dependency>

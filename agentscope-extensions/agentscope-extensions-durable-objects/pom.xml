@@ -3,6 +3,8 @@
 <modelVersion>4.0.0</modelVersion>
 <parent><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-extensions</artifactId><version>${revision}</version></parent>
 <artifactId>agentscope-extensions-durable-objects</artifactId>
+<name>AgentScope Durable - Object Storage</name>
+<description>S3 and OSS backed object stores for durable state and artifacts</description>
 <dependencies>
 <dependency><groupId>com.squareup.okhttp3</groupId><artifactId>okhttp-jvm</artifactId><optional>true</optional></dependency>
 <dependency><groupId>io.github.ck-ys.agentscope</groupId><artifactId>agentscope-durable-runtime</artifactId><version>${revision}</version></dependency>
